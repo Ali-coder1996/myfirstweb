@@ -6,8 +6,8 @@ var not = "This is firs prototype "
 console.log(z);
 
 alert(not);
-
-
+var my = prompt("wirte your name ");
+alert("welcom " +my);
 var my = prompt("wirte your age ");
 
 
