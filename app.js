@@ -1,3 +1,4 @@
+
 var x = 10;
 var y = 5;
 var z = x + y;
@@ -18,4 +19,11 @@ if (z >= my){
   document.write("<p> you are adult </P>")
   document.write("<p> your age above 15 </P>")
   console.log(my);
+}
+function myFunction() {
+  var r = confirm("Change the background?");
+  if (r == true) {
+    document.body.style.backgroundColor = "green";
+  }
+  
 }
