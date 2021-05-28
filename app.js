@@ -13,11 +13,11 @@ var my = prompt("wirte your age ");
 
 if (z >= my){
   document.write("<p> you are young </p>")
-  document.write("<p> your age below 15 </P>")
+  document.write("your age is " +my )
   console.log(my);
 }else {
   document.write("<p> you are adult </P>")
-  document.write("<p> your age above 15 </P>")
+  document.write("your age is "+my)
   console.log(my);
 }
 function myFunction() {
